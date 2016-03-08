@@ -16,7 +16,7 @@
 # called Euclidean distance. Google and read up on how to calculate it
 # if you don't know what it is :3
 #
-# GOOD LUCK ODIE <3
+# GOOD LUCK
 
 def min_dist(x1, y1, x2, y2, x3, y3):
     # TODO: Put your code here
