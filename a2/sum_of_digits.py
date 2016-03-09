@@ -16,7 +16,7 @@ def check_answer(x, expected_answer):
     color = "\033[92m" if answer == expected_answer else "\033[91m"
     print "\tInput: {0}".format(x) 
     print "\tExpected Output: {0}".format(expected_answer)
-    print color + "\tActual Output: " + answer + "\033[0m\n"
+    print color + "\tActual Output: {0}\033[0m\n".format(answer)
 
 print "Test Results: \033[92mGreen\033[0m means you're correct, \033[91mRed\033[0m means try again."
 check_answer(235, 10)
